@@ -1,2 +1,1 @@
-# STEALTH-SHELL
-This project is a CLI-based tool written in Python that generates an Windows reverse shell PowerShell script. It uses `ngrok` to establish a tunnel, allowing reverse shell connections over the internet. Users can specify their preferred IP and port for the reverse shell connection. The tool is modular, with separate components for script generation, obfuscation, and `ngrok` management, ensuring clarity and maintainability.
+
