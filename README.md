@@ -85,7 +85,18 @@ The PowerShell Reverse Shell Generator Tool is designed to facilitate the creati
     - Select the ```.ps1``` file in Source file that we will going to convert in ```EXE```.
       
     - Now, Select the target where you want to save the compile ```EXE``` file according to your choice.
-         
+
+    - At last, compile it and you will get the EXE file that gonna use to generate reverse shell.
+
+      ![ps2exe1](https://github.com/user-attachments/assets/05e4f63f-cd04-49e4-928c-9de57ab80534)
+
+ - Start Netcat Listener on your Kali Machine
+
+      
+       nc -lvp 4444
+
+- As soon as Victim trying to open our generated malicious reverse shell ```EXE``` file it will generate the reverse shell on your Kali Machine.
+       
 ##  Understand Working Structure through diagram
 
 
