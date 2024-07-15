@@ -69,7 +69,23 @@ The PowerShell Reverse Shell Generator Tool is designed to facilitate the creati
    ```
  - Transfer the ```.ps1``` file into your Virtual Windows to convert it into executable form ```EXE```.
 
- - Install PS2EXE Tool in your Virtual Windows
+ - Install Win-PS2EXE.exe file in your Windows Machine from below methods and open it:
+
+    - Directly download it from my repository
+      
+    - from here ``` https://github.com/MScholtes/TechNet-Gallery/blob/master/PS2EXE-GUI/Win-PS2EXE.exe```
+
+
+    ![ps2exe](https://github.com/user-attachments/assets/c3a94ed7-f76c-4f2a-b1f4-7eb1f5f5a26a)
+ 
+ - Now Compile the ```reverse_shell.ps1``` into ```reverse_shell.exe```
+
+    - Open Win-PS2EXE.
+      
+    - Select the ```.ps1``` file in Source file that we will going to convert in ```EXE```.
+      
+    - Now, Select the target where you want to save the compile ```EXE``` file according to your choice.
+         
 ##  Understand Working Structure through diagram
 
 
