@@ -10,7 +10,7 @@ The PowerShell Reverse Shell Generator Tool is designed to facilitate the creati
 
  - **Obfuscation Techniques:** Built-in support for obfuscation to evade antivirus detection.
 
- - **Integration with ngrok:** Facilitates remote access setup through ngrok tunnels.
+ - **Integration with ngrok:** Uses Ngrok for tunneling, allowing reverse shell access over the internet.
 
  - **Cross-Platform Compatibility:** Python-based tool compatible with various operating systems.
 
