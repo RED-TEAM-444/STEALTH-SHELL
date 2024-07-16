@@ -96,7 +96,27 @@ The PowerShell Reverse Shell Generator Tool is designed to facilitate the creati
        nc -lvp 4444
 
 - As soon as Victim trying to open our generated malicious reverse shell ```EXE``` file it will generate the reverse shell on your Kali Machine.
-       
+
+
+## Requirements
+
+ - Python 3.x
+ - requests
+ - Python 3 and Pip
+
+## Install Dependencies
+
+ - Install Required Python Packages
+   ```
+   sudo pip3 install requests
+   ```
+ - Install Python 3 and Pip
+   ```
+   sudo apt install python3 python3-pip -y
+   ```
+
+
+
 ##  Understand Working Structure through diagram
 
 
